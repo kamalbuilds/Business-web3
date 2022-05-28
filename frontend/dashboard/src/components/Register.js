@@ -1,5 +1,5 @@
 // Register page
-export default function Example() {
+export default function Register() {
     return (
       <>
         <div>
@@ -187,6 +187,7 @@ export default function Example() {
                           autoComplete="country-name"
                           className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                         >
+                          <option>India</option>
                           <option>United States</option>
                           <option>Canada</option>
                           <option>Mexico</option>
@@ -284,22 +285,7 @@ export default function Example() {
                         By Email
                       </div>
                       <div className="mt-4 space-y-4">
-                        <div className="flex items-start">
-                          <div className="flex items-center h-5">
-                            <input
-                              id="comments"
-                              name="comments"
-                              type="checkbox"
-                              className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
-                            />
-                          </div>
-                          <div className="ml-3 text-sm">
-                            <label htmlFor="comments" className="font-medium text-gray-700">
-                              Comments
-                            </label>
-                            <p className="text-gray-500">Get notified when someones posts a comment on a posting.</p>
-                          </div>
-                        </div>
+                        
                         <div className="flex items-start">
                           <div className="flex items-center h-5">
                             <input
@@ -310,10 +296,10 @@ export default function Example() {
                             />
                           </div>
                           <div className="ml-3 text-sm">
-                            <label htmlFor="candidates" className="font-medium text-gray-700">
-                              Candidates
+                            <label htmlFor="customers" className="font-medium text-gray-700">
+                               Customers
                             </label>
-                            <p className="text-gray-500">Get notified when a candidate applies for a job.</p>
+                            <p className="text-gray-500">Get notified when a customer buys goods</p>
                           </div>
                         </div>
                         <div className="flex items-start">
@@ -329,7 +315,7 @@ export default function Example() {
                             <label htmlFor="offers" className="font-medium text-gray-700">
                               Offers
                             </label>
-                            <p className="text-gray-500">Get notified when a candidate accepts or rejects an offer.</p>
+                            <p className="text-gray-500">Get notified when a customer gets a referall.</p>
                           </div>
                         </div>
                       </div>
