@@ -20,9 +20,9 @@ class Businessdetail(sp.Contract):
         self.data.storedValue /= params.divisor
 
 if "templates" not in __name__:
-    @sp.add_test(name = "StoreValue")
+    @sp.add_test(name = "Businessdetail")
     def test():
-        c1 = StoreValue(12)
+        c1 = Businessdetail(12)
         scenario = sp.test_scenario()
         scenario.h1("Store Value")
         scenario += c1
@@ -35,4 +35,4 @@ if "templates" not in __name__:
         c1.divide(divisor = 6)
         scenario.verify(c1.data.storedValue == 8)
 
-    sp.add_compilation_target("storeValue", StoreValue(12))
+    sp.add_compilation_target("Businessdetail", Businessdetail(12))
