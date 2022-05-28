@@ -2,7 +2,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-import logo from '../images/logob.png';
+import logo from '../images/logo2.png';
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
