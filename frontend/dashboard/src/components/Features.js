@@ -1,6 +1,7 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/outline'
+import logo from '../images/logob.png';
 
 const navigation = {
   categories: [
@@ -297,7 +298,7 @@ export default function Features() {
                   <span className="sr-only">Workflow</span>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                    src={logo}
                     alt=""
                   />
                 </a>
