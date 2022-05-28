@@ -2,7 +2,7 @@
 
 import smartpy as sp
 
-class StoreValue(sp.Contract):
+class Businessdetail(sp.Contract):
     def __init__(self, value):
         self.init(storedValue = value)
 
