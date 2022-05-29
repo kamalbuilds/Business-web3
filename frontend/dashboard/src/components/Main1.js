@@ -2,8 +2,10 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import logo from '../images/logo2.png';
+import landing from '../images/landingn.png';
+
 const navigation = [
-  { name: 'Products', href: '#' },
+  { name: 'Products', href: '/products' },
   { name: 'Features', href: '#' },
   { name: 'Marketplace', href: '#' },
 ]
@@ -29,7 +31,7 @@ export default function Main() {
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <a href="#">
-                      <span className="sr-only">Workflow</span>
+                      <span className="sr-only">MarketMap</span>
                       <img
                         alt="Workflow"
                         className="h-8 w-auto lg:h-20"
@@ -131,7 +133,7 @@ export default function Main() {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
-                    Live demo
+                    Learn More
                   </a>
                 </div>
               </div>
@@ -146,6 +148,7 @@ export default function Main() {
           alt=""
         />
       </div>
+
     </div>
   )
 }

@@ -6,9 +6,9 @@ import logo from '../images/logo2.png';
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
-  { name: 'Group', href: '#', current: false },
+  { name: 'Customer', href: '/customer', current: false },
+  { name: 'Register', href: '/register', current: false },
   { name: 'Analytics', href: '#', current: false },
-  { name: 'More', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -40,11 +40,13 @@ export default function Navbar() {
                     src={logo}
                     alt="Workflow"
                   />
+                  <a href="/">
                   <img
-                    className="hidden lg:block h-12 w-auto"
+                    className="hidden lg:block h-16 w-auto"
                     src={logo}
                     alt="Workflow"
                   />
+                  </a>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
